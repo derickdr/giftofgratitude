@@ -1,0 +1,131 @@
+/* fonts */
+
+@font-face {
+    font-family: title;
+    src: url(assets\fonts\Young_Serif\YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: body;
+    src: url(assets\fonts\Open_Sans\OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+/* section skeleton styles */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1, .sec2, .sec3, .sec4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.sec1 {
+    background-image: url('/assets/spread-thanks.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec2 {
+    background-image: url('/assets/cards.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec3 {
+    background-image: url('/assets/deliver-gifts.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.sec4 {
+    background-image: url('/assets/join-the-team.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-header {
+    font-family: title;
+    font-size: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    padding: 1rem 0rem 1rem;
+    margin: 2vw 0vw 5vw;
+}
+
+.section-content-container {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+/* section component styles */
+
+.section-header > h1 {
+    font-size: 6.5rem;
+    padding: 30vh 0vw 30vh;
+    color: rgb(255, 255, 255);
+}
+
+.section-header > h2 {
+    color: rgb(255, 255, 255);
+}
+
+.blurb {
+    text-align: center;
+    width: 100%;
+    max-width: 50vw;
+    background: rgba(215, 242, 255, 0.35);
+    border-radius: 5px;
+}
+
+ul.blurb > li {
+    color: white;
+    font-family: body;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 1.2rem 1rem 1rem;
+}
+
+/* sponsor section */
+
+.sponsor-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 100vw;
+    height: 30vh;
+    max-width: 100%;
+}
+
+.sponsor-head {
+
+}
+
+.sponsor-blurb {
+    
+}
+
+.sponsor-body {
+    
+}
+
+.sponsor {
+
+}
+
+.sponsor-logo {
+
+}
