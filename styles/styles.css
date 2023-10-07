@@ -78,7 +78,7 @@ body {
 }
 
 .sec1 {
-    background-image: url('/assets/spread-thanks.jpg');
+    background-image: url('/assets/collage-1.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -130,8 +130,6 @@ body {
 .section-header > h1 {
     font-size: 6.5rem;
     color: rgb(255, 255, 255);
-    border: 0.1rem solid rgba(255, 255, 255, 0.8);
-    border-radius: 1rem;
     padding: 1.2rem 1.1rem 1.2rem;
     margin: 30vh 0vh 0vh;
 }
