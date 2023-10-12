@@ -15,6 +15,12 @@
     src: url(assets\fonts\Exo_2\Exo2-VariableFont_wght.ttf);
 }
 
+/* unique text */
+
+.admin {
+    color:rgb(235, 248, 255);
+}
+
 /* temp */
 
 .coming-soon {
@@ -25,7 +31,6 @@
     font-family: title;
     font-size: 1.8rem;
     padding: 1.5rem;
-    color: white;
 }
 
 .coming-soon > h2, h3 {
@@ -43,11 +48,13 @@
 
 .appeal {
     font-size: 3rem;
+    color:rgb(235, 248, 255);
 }
 
 .coming-soon > ul {
     min-width: 100%;
     display: flex;
+    color:white;
     flex-direction: column;
     justify-content: center;
 }
@@ -58,6 +65,10 @@
     line-height: 1.8;
     color:white;
     margin: 0vh 25vw 0vh;
+}
+
+.coming-soon > h3 {
+    color: white;
 }
 
 .coming-soon > h3.contact {
@@ -86,12 +97,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     background-image: url('/assets/collage-1.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    max-height: 100vh;
 }
 
 .sec2 {
@@ -109,7 +120,7 @@ body {
 }
 
 .sec4 {
-    background-image: url('/assets/join-the-team.jpg');
+    background-image: url('/assets/spread-thanks.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -120,13 +131,10 @@ body {
     font-size: 5rem;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center; 
     max-width: 100%;
     margin: 2vw 0vw 5vw;
-}
-
-.section-header > h1 {
-    filter: drop-shadow(0.5rem 0.3rem 0.35rem #0000002f);
 }
 
 .section-content-container {
@@ -145,8 +153,10 @@ body {
     font-size: 5rem;
     color: rgb(255, 255, 255);
     padding: 1.2rem 1.1rem 1.2rem;
-    margin: 30vh 0vh 0vh;
+    margin: 10vh 0vh 0vh;
     letter-spacing: 3px;
+    filter: drop-shadow(0.5rem 0.3rem 0.35rem #0000002f);
+    min-width: 80%;
 }
 
 .section-subhead {
@@ -172,10 +182,21 @@ body {
 
 .section-header > h2 {
     color: rgb(255, 255, 255);
-    border: 0.1rem solid rgba(255, 255, 255, 0.8);
+    border: 0.1rem solid rgba(255, 255, 255, 0.4);
     border-radius: 1rem;
     padding: 1rem 1.2rem 1rem;
     max-width: 100%;
+}
+
+.sec1 > .section-header > h2 {
+    font-family: body;
+    font-size: 1.8rem;
+    color: rgb(221, 221, 221);
+    padding: 1.2rem 1.1rem 1.2rem;
+    margin: -2vh 0vh 0vh;
+    letter-spacing: 3px;
+    filter: drop-shadow(0.5rem 0.3rem 0.35rem #0000002f);
+    border: none;
 }
 
 .blurb {
@@ -192,6 +213,10 @@ ul.blurb > li {
     font-size: 1.2rem;
     line-height: 1.5rem;
     padding: 1.2rem 1rem 1rem;
+}
+
+.sec4 > .section-header > h2 {
+    background: rgba(185, 236, 255, 0.4);
 }
 
 /* sponsor section */
