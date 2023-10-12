@@ -18,7 +18,7 @@
 /* unique text */
 
 .admin {
-    color:rgb(235, 248, 255);
+    color:rgb(229, 246, 255);
 }
 
 /* temp */
@@ -72,6 +72,12 @@
 }
 
 .coming-soon > h3.contact {
+    font-family: title;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.subhead-row > h3.contact {
     font-family: title;
     font-size: 1.5rem;
     text-align: center;
@@ -319,4 +325,14 @@ ul.blurb > li {
     max-width: 100%;
     max-height: 100%;
     padding: 1rem 0rem 1rem;
+}
+
+/* socials */
+
+.social-bar-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
